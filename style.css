@@ -1,0 +1,36 @@
+*{
+    font-family: 'Cheerful Cupcake', sans-serif;
+}
+
+body{
+    background-image: url("strawberry bg.jpg");
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+#title{
+    margin-top: 100px;
+    line-height: 10px;
+    font-size: 40px;
+}
+
+#subtitle{
+    margin-bottom: 20px;
+    font-size: 30px;
+    opacity: 0.8;
+}
+
+#calenderContainer{
+    display: flex;
+    justify-content: center;
+}
+
+#calenderDiv{
+    background-color: rgb(252, 226, 226);
+    border-radius: 10px 10px 20px 20px;
+    margin: auto;
+    align-content: center;
+    text-align: center;
+    width: 400px;
+}
