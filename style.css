@@ -39,16 +39,17 @@ body{
     display: flex;
     justify-content: space-between;
     border-radius: 10px 10px 0px 0px;
-    border: 2px solid black;
+    border: 2px solid rgb(185, 96, 96);
     padding: 0px 20px;
     font-size: 25px;
-    background-color: pink;
+    background-color: rgb(248, 177, 189);
     line-height: 0px;
 }
 
 #calenderContent{
     padding: 20px;
-    border: 2px solid black;
+    border: 2px solid rgb(185, 96, 96);
+    border-radius: 0px 0px 20px 20px;
 }
 
 .days{
@@ -64,3 +65,33 @@ body{
     border-radius: 20px;
    
 }
+
+.swing-image {
+    width: 200px;
+    height: auto;
+    animation: swingBackAndForth 4s ease-in-out infinite alternate;
+}
+
+@keyframes swingBackAndForth {
+            0% {
+                transform: rotate(-20deg); /* Start angle to the left */
+            }
+            100% {
+                transform: rotate(10deg);  /* End angle to the right */
+            }
+        }
+
+.swing2-image {
+    width: 200px;
+    height: auto;
+    animation: swingBackAndForth 5s ease-in-out infinite alternate;
+}
+
+@keyframes swingBackAndForth {
+            0% {
+                transform: rotate(-5deg); /* Start angle to the left */
+            }
+            100% {
+                transform: rotate(10deg);  /* End angle to the right */
+            }
+        }
